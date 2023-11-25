@@ -38,7 +38,5 @@
             NÃO É HERANÇA
             Para que serve ? Como implementa ? 
         Criando uma estrutura de pilha (vou criar um arquivo java para melhor visualização e boto aqui a imagem depois)
-            <div align="center">
-            <img src="D:\Desktop\Renan\01DEV LIFE\cursos\youtube\javaStudies\javastudies\snapPilha.png" width="700px" />
-            </div>
+           
 
