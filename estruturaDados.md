@@ -46,7 +46,9 @@ O que é uma pliha ?
     <img src="https://github.com/renanacedo/javastudies/assets/110266440/97abe34e-5123-4d3e-bd8d-2faabc5e55ce" width="550px" />
 </div>
 
+Quando e pra que usar pilha ?
 
+    
 
 ## Aula 03 - 
 
