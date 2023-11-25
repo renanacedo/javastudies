@@ -1,9 +1,9 @@
 package AulaPilhas;
-public class aulaDePilha{
+public class Pilha{
     private int valores[];
     private int topo;
 
-    public aulaDePilha(){ // Função que cria (famoso construtor).
+    public Pilha(){ // Função que cria (famoso construtor).
         valores = new int[10]; // Esse [10] indica que pode ter 10 elementos
         topo = -1; // Aqui só indica a posição do vetor (Indice), se o topo retorna -1 
                 // é porque esta vazia (porque não 0? Porque os vetores/arrays 
@@ -13,7 +13,7 @@ public class aulaDePilha{
 
     }
     public void push(int elemento){ // Função que insere item.
-        topo = topo++; // Acrescenta uma posição a variavel topo.
+        topo = topo + 1; // Acrescenta uma posição a variavel topo.
         valores[topo] = elemento; // Acrescente o item ELEMENTO do push na 
                                 // posição da array VALORES que o TOPO está indicando
 
