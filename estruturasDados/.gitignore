@@ -21,8 +21,8 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-/.gitignore/
-/.idea/
+.gitignore/
+.idea/
 
 ### VS Code ###
 .vscode/
