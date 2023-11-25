@@ -20,23 +20,23 @@ d# Estrutura de Dados - Prof. Isidro - Youtube
 
 ## Aula 02 - Pilha: Conceitos e Implementações
 Recapitulação da aula 01
+
     Quem vai usar o tipo de dado que defino não precisa saber a parte interna/implementação do dado, só precisa saber como usar.
     Eu que sou o dev preciso saber como implementar e deixar blindado*, porque eu que vou fazer.
--
 Pilha
 Vamos trabalhar 5 operaçoes em pilha
-    1 - Cria a pilha
-    2 - Verifica se esta vazia
-    3 - Verifica se esta cheia
-    4 - Empilhar
-    5 - Desempilhar
+        1 - Cria a pilha
+        2 - Verifica se esta vazia
+        3 - Verifica se esta cheia
+        4 - Empilhar
+        5 - Desempilhar
 O que é uma pliha ?
-    Conjunto de elementos do mesmo tipo, utilizando vetor/array armazenando segundo uma estratégia
-    1 elemento sempre vai no topo da pilha, e os seguintes um acima do outro. 
-    Eu só enxergo o elemento que esta no topo, quantos tem e quais não é possivel saber, tem como inserir (push) e tirar (pop). *ou seja, para ver os proximos elementos só desempilhanado. 
-    De fato, só da pra criar, ver se ta vazia ou cheia, empillhar e desempilhar.
-    NÃO É HERANÇA
-    Para que serve ? Como implementa ? 
+        Conjunto de elementos do mesmo tipo, utilizando vetor/array armazenando segundo uma estratégia
+        1 elemento sempre vai no topo da pilha, e os seguintes um acima do outro. 
+        Eu só enxergo o elemento que esta no topo, quantos tem e quais não é possivel saber, tem como inserir (push) e tirar (pop). *ou seja, para ver os proximos elementos só desempilhanado. 
+        De fato, só da pra criar, ver se ta vazia ou cheia, empillhar e desempilhar.
+        NÃO É HERANÇA
+        Para que serve ? Como implementa ? 
 Criando uma estrutura de pilha (vou criar um arquivo java para melhor visualização e boto aqui a imagem depois)
 <div align="center>
 <img src="D:\Desktop\Renan\01DEV LIFE\cursos\youtube\javaStudies\javastudies\snapPilha.png" width="700px" />
