@@ -41,7 +41,10 @@ O que é uma pliha ?
         NÃO É HERANÇA
         Para que serve ? Como implementa ? 
 
-Criando uma estrutura de pilha (vou criar um arquivo java para melhor visualização e boto aqui a imagem depois)
+#Criando uma estrutura de pilha (vou criar um arquivo java para melhor visualização e boto aqui a imagem depois)
+<div align ="center">
+    <img src="https://github.com/renanacedo/javastudies/assets/110266440/97abe34e-5123-4d3e-bd8d-2faabc5e55ce" width="700px" />
+</div>
 
 ![snapPilha](https://github.com/renanacedo/javastudies/assets/110266440/97abe34e-5123-4d3e-bd8d-2faabc5e55ce)
 
