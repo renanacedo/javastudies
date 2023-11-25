@@ -1,5 +1,4 @@
 package AulaPilhas;
-import AulaPilhas.Pilha;
 
 public class Conversor {
     public static void main(String args[]){
