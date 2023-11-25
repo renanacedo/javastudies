@@ -42,7 +42,7 @@ O que é uma pliha ?
         Para que serve ? Como implementa ? 
 
 #Criando uma estrutura de pilha (vou criar um arquivo java para melhor visualização e boto aqui a imagem depois)
-<div align ="center">
+<div align ="left">
     <img src="https://github.com/renanacedo/javastudies/assets/110266440/97abe34e-5123-4d3e-bd8d-2faabc5e55ce" width="550px" />
 </div>
 
