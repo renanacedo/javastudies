@@ -46,7 +46,10 @@ O que é uma pliha ?
     <img src="https://github.com/renanacedo/javastudies/assets/110266440/97abe34e-5123-4d3e-bd8d-2faabc5e55ce" width="550px" />
 </div>
 
-
+OBS> Quando for utilizar a pliha em alguma aplicação sempre que for empilhar perguntar se esta cheia antes e se for desempilhar perguntar se esta vazia
+Quando e pra que usar pilha ?
+        Armazenar funções que chamam funções para guardar a ordem dos endereços, para quando acabar a função atual ela retornar para o endereço correto.
+        
 
 ## Aula 03 - 
 
