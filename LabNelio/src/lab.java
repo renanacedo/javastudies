@@ -7,6 +7,7 @@ public class lab {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Quantos minutos de consumo: ");
         int minutos = sc.nextInt();
         double conta = 50.0;
         if (minutos > 100){
@@ -15,6 +16,7 @@ public class lab {
         System.out.printf("Valor da conta = R$ %.2f%n", conta);
 
         String dia;
+        System.out.println("Qual dia da semana: ");
         int x = sc.nextInt();
         switch (x){
             case 1:
