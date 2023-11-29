@@ -113,4 +113,28 @@ Escopo e inicialização
         Variavel utilizadas dentro de alguma estrutura condicional/logica/função deve ser 
         declarada fora da estura para poder ser referenciada. E tambem deve ser iniciada nas condicionais em todas as condições 
 
- 
+ ## Seção 6 - Estruturas repetitivas
+
+Ele ensina o DEBUG no eclipse, ou seja, preciso aprender o debug no vscode e intellij
+    ps: o que é um debug ?
+        O programa executa linha por linha, apartir do breakpoint, sob meu controle de passar cada linha
+    Toggle breakpoint
+        No VSCode = F9 > Click direito no arquivo > Debug Java
+    Basicamente ele ensinou o debug para ver as estruturas de repetição acontecendo passo a passo
+
+Estrutura repetitiva - while (enquanto)
+    estrutura de controle que repete um bloco de controle enquanto uma condição for verdadeira
+    Quando usar: Quando você não sabe quantas vezes esse algoritmo/programa/bloco precisa repetir
+    Sintaxe
+        while(condição){
+            <comando1>
+            <comando2>
+        }
+        Se a condição é verdadeira executa e retorna
+        Se a condição é verdadeira ele termina
+    
+    Ai ele vem e mete um teste de mesa = Pulei
+    Execicios no - exjava1.java
+
+
+    
