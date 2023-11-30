@@ -1,8 +1,8 @@
-package labjavas;
+package labJavas;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class lab {
+public class Lab {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

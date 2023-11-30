@@ -149,5 +149,31 @@ Estrutura repetitiva FOR ( para )
         Incremento = Executa toda vez depois que voltar
     Essa estrutura de FOR é otima para repetição baseada em contagem
     Ai ele mostra teste de mesa e faz exercicios de teste de mesa
-    
+    Exercicios:
+        LabNelio > src > exjavas > exjava4, exjava5, exjava6, exjava,7 exjava8, exjava9, exjava10
+
+Estrutura repetiva do-while (faça enquanto)
+    O bloco de comando é executado pelo menos 1 vez pois a verificação é feita no final
+    Sintaxe
+    do {
+        comando 1 
+        comando 2
+    } while (condição)
+    Se eu utilizar alguma variavel para a condição WHILE que esteja só dentro do bloco DO, eu preciso declarar
+    essa variavel do lado de fora do bloco;
+
+## Seção 7 - Outros tópicos básicos sobre Java
+    Restrições e convenções para nomes
+    Variaves
+        não pode começar com numeral
+        não usar acento ou til
+        não ter espaço em branco
+        Sugestão: Use nome que tenha significado com sua utilização
+    camelCase
+        pacotes
+        atributos
+        métodos
+        variáveis e paramêtros
+    PascalCase
+        classes
     

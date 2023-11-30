@@ -1,4 +1,4 @@
-package exjavas;
+package exJavas;
 import java.util.Scanner;
 
 public class exjava1 {

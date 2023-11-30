@@ -1,25 +1,20 @@
-package labjavas;
+package labJavas;
 import java.util.Scanner;
 
-public class lab2 {
+public class Lab2 {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Quantos numeros quer somar ?");
-        int N = sc.nextInt();
-        int soma = 0;
-
-        for (int i = 0; i < N ; i++ ){
-            System.out.println("Digite o numero pra soma: ");
-            int x = sc.nextInt();
-            soma += x;
-
-        }
-
-        System.out.println("A soma é: " + soma);
-
+        char resp = 's';
+        do {
+            System.out.println("Digite a temperatura em Celsius: ");
+            double cel = sc.nextDouble();
+            double fah = ((cel*9)/5)+32;
+            System.out.println("Equivalente em Fahrenheit: " + fah);
+            System.out.println("Deseja repetir ? (s/n)");
+            resp = sc.next().charAt(0);
+        } while (resp != 'n');
 
         sc.close();
     }
-    
 }
