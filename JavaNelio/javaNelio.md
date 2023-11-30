@@ -163,8 +163,8 @@ Estrutura repetiva do-while (faça enquanto)
     essa variavel do lado de fora do bloco;
 
 ## Seção 7 - Outros tópicos básicos sobre Java
-    Restrições e convenções para nomes
-    Variaves
+Restrições e convenções para nomes
+Variaves
         não pode começar com numeral
         não usar acento ou til
         não ter espaço em branco
@@ -177,3 +177,61 @@ Estrutura repetiva do-while (faça enquanto)
     PascalCase
         classes
     
+Operadores Bitwise
+    Operadores lógicos que realizam operações bit a bit
+    & - AND bit a bit
+    | - OR bit a bit
+    ^ - XOR bit a bit
+        Isso daqui pega literalmente o dado transforma e bit e compara os bits de cada informação e retorna
+        o resultado de volta no formato original. 
+        ex: 
+        89 & 60 = 24
+            89 - 0101 1001
+           AND
+            60 - 0011 1100
+            R  - FFFV VFFF
+            24 - 0001 1000
+        ONDE USA ISSO ? - Isso usa em programação de baixo nivel ex: interface de rede para vefiricar um bit especifico
+
+Funções interessantes p/ String
+    Formatar
+        toLowerCase(); Transforma p/ minusculo
+        toUpperCase(); Transforma p/ Maiusculo
+        trim(); Remover espaços
+    Recortar
+        substring(inicio); recorta os char apartir da posição indicada
+        substring(inicio, fim); recorta apartir e até 
+    Substituir
+        Replace(char, char); substitui o char designado pelo outro designado
+        Replace(string, string); substitui a string designado pelo outro designado
+    Buscar 
+        IndexOf - Ex int x = variavel.indexOf(); e ai ele indica qual a posição do valor indicado da variavel selecionada
+        LastIndexOf
+    str.Split(""); separa a string com base no separador escrito
+        EX: String[] vect = variavel.split("");
+            Estou pegando os valores numa variavel separados por espaço e crianto vetores numa array chamada vect
+
+Comentários em Java
+    Basicamente explica como colocar um comentario 
+        // isso é um comentario de linha
+        /*isso é um comentario de bloco */
+    
+Funções (sintaxe)
+    Processamento que possui um significado
+        Math.sqrt(double) = Raiz quadrada do parametro/valor
+        System.out.println(string); = Printa algo na tela
+    Vantagens
+        Modularização
+        Delegação 
+        Reaproveitamento
+    Dados de entrada e Saida
+        Podem receber dados de entrada - paramentros ou argumentos
+        Podem ou não retornar dados de saída
+    Em POO funções em classes são metódos
+    Em seguida fizemos um arquivo exemplificando como criar e utilizar uma função no mesmo arquivo
+        labNelio > labJavas > Lab2.java
+
+## Seção 8 - Introdução a Programação Orientada a Objetos (POO)
+    
+
+

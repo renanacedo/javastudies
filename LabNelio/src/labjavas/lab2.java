@@ -5,16 +5,27 @@ public class Lab2 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        char resp = 's';
-        do {
-            System.out.println("Digite a temperatura em Celsius: ");
-            double cel = sc.nextDouble();
-            double fah = ((cel*9)/5)+32;
-            System.out.println("Equivalente em Fahrenheit: " + fah);
-            System.out.println("Deseja repetir ? (s/n)");
-            resp = sc.next().charAt(0);
-        } while (resp != 'n');
+
+        System.out.println("Entre 3 numeros: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int higher = max(a, b, c);
+
+        System.out.println(higher);
+
 
         sc.close();
+    }
+
+    public static int max(int x, int y, int z){
+        if (x > y && x > z){
+            return x;
+        } else if (y > z){
+            return y;
+        } else {
+            return z;
+        }
     }
 }
