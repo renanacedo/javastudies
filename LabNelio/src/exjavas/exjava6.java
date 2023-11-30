@@ -2,7 +2,7 @@ package exJavas;
 
 import java.util.Scanner;
 
-public class exjava6 {
+public class ExJava6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
