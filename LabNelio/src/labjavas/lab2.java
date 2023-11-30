@@ -5,17 +5,19 @@ public class lab2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Digite um numero inteiro");
-        int x = sc.nextInt();
+        System.out.println("Quantos numeros quer somar ?");
+        int N = sc.nextInt();
         int soma = 0;
 
-        while (x != 0) {
+        for (int i = 0; i < N ; i++ ){
+            System.out.println("Digite o numero pra soma: ");
+            int x = sc.nextInt();
             soma += x;
-            x = sc.nextInt();
-            
+
         }
 
-        System.out.println("Valor total digitado: " + soma);
+        System.out.println("A soma é: " + soma);
+
 
         sc.close();
     }

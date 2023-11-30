@@ -134,7 +134,20 @@ Estrutura repetitiva - while (enquanto)
         Se a condição é verdadeira ele termina
     
     Ai ele vem e mete um teste de mesa = Pulei
-    Execicios no - exjava1.java
+    Execicios na pasta LabNelio > src > exjavas > exjava1, exjava2 e exjava3
 
-
+Estrutura repetitiva FOR ( para )
+    Repete um bloco de comandos para um certo intervalor de valores
+    Quando usar: Quando se sabe a quantidade de repetições ou intervalo de valores (difere do while)
+    Sintaxe
+        for (início; condição; incremento){
+            comando 1
+            comando 2
+        }
+        Início = Executa somente a primeira vez
+        Condição = V - Executa e volta F - Fim
+        Incremento = Executa toda vez depois que voltar
+    Essa estrutura de FOR é otima para repetição baseada em contagem
+    Ai ele mostra teste de mesa e faz exercicios de teste de mesa
+    
     
