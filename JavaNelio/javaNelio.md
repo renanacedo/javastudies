@@ -231,7 +231,4 @@ Funções (sintaxe)
     Em seguida fizemos um arquivo exemplificando como criar e utilizar uma função no mesmo arquivo
         labNelio > labJavas > Lab2.java
 
-## Seção 8 - Introdução a Programação Orientada a Objetos (POO)
-    
-
 
