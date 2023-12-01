@@ -68,3 +68,12 @@ Qual os beneficios de utilizar os métodos de uma classe Triangulo para calcular
     Cada classe é responsavel por si mesma (coesão)
 
 Um novo problema exemplo
+
+Object e toString
+    toda classe em Java é subclasse da classe Object
+    Object possui os seguintes métodos:
+        getClass - Retorna o tipo do objeto
+        equals - compara se o objeto é igual a outro
+        hashCode - retorna um código hash do objeto
+        toString - converte o objeto para string
+        

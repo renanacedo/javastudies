@@ -6,15 +6,25 @@ public class Produto {
     public double preco;
     public int quantidade;
 
-    public double TotalValueStock(){
+    public double totalValueStock(){
         return quantidade*preco;
     }
     
-    public void AddProducts(int x){
-        quantidade += x;
+    public void addProducts(int quantidade){
+        this.quantidade += quantidade;
     }
 
-    public void RemoveProducts(int x){
-        quantidade -= x;
+    public void removeProducts(int quantidade){
+        this.quantidade -= quantidade;
+    }
+
+    public String toString(){
+        return nome 
+            + ", R$"
+            + String.format("%.2f", preco)
+            + ", "
+            + quantidade
+            + " und. Total: R$"
+            + String.format("%.2f", totalValueStock());
     }
 }
