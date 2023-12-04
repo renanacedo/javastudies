@@ -77,3 +77,19 @@ Object e toString
         hashCode - retorna um código hash do objeto
         toString - converte o objeto para string
         
+Membros Estáticos
+    Membro de classe = oposição a membro de instancia (que voce declara um novo idente e instancia um valor para um atributo dele)
+    Membros são os atributos e métodos de uma classe
+    Eles são idependentes de objetos, podem ser chamados mesmo sem objeto, direto do própio nome da classe
+        (esperar par ver na prática como chama)
+        att: a função Math.sqrt(double); é um membro estático que estavamos usando até agora, o "Math" é uma classe e não um método de uma classe. 
+    Utilização comum:
+        Classes utilitarias
+        Declaração de constantes
+    Classe com só membros estáticos se torna uma classe estática, não recebera nada que pode ser instanciado
+    Constante é uma variavel estatica que não muda em nenhum outro momento de qualquer aplicação que a use
+        Constante não é uma variavel
+        O que define uma constante é:
+            O "final" em "public static final double NOME_DA_CONSTANTE = 11
+            O nome da constante ser toda em letra maiscula separada por underline
+    
