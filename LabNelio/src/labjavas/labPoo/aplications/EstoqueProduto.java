@@ -8,30 +8,31 @@ public class EstoqueProduto {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Produto tenis = new Produto();
-        System.out.print("Digite nome do produto: ");
-        tenis.nome = sc.next();
-        System.out.print("Digite o preço unitário: ");
-        tenis.preco = sc.nextDouble();
-        System.out.print("Digite a quantidade atual em estoque: ");
-        tenis.quantidade = sc.nextInt();
 
-        System.out.println(tenis);
-        System.out.printf("Valor total em estoque %.2f", tenis.totalValueStock());
+        System.out.print("Digite nome do produto: ");
+        String nome = sc.next();
+        System.out.print("Digite o preço unitário: ");
+        double preco = sc.nextDouble();
+        System.out.print("Digite a quantidade atual em estoque: ");
+        int quantidade = sc.nextInt();
+
+        Produto produto1 = new Produto(nome, preco, quantidade);
+        System.out.println(produto1);
+        System.out.printf("Valor total em estoque %.2f", produto1.totalValueStock());
 
         System.out.println("\n\nQuantos Produtos entraram em estoque?");
         int add = sc.nextInt();
-        tenis.addProducts(add);
+        produto1.addProducts(add);
 
-        System.out.println(tenis);
-        System.out.printf("Valor total em estoque %.2f", tenis.totalValueStock());
+        System.out.println(produto1);
+        System.out.printf("Valor total em estoque %.2f", produto1.totalValueStock());
 
         System.out.println("\n\nQuantos produtos foram retirados do estoque?");
         int exc = sc.nextInt();
-        tenis.removeProducts(exc);
+        produto1.removeProducts(exc);
 
-        System.out.println(tenis);
-        System.out.printf("Valor total em estoque %.2f", tenis.totalValueStock());
+        System.out.println(produto1);
+        System.out.printf("Valor total em estoque %.2f", produto1.totalValueStock());
 
 
 

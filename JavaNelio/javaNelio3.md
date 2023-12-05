@@ -104,3 +104,6 @@ Construtores
         É possivel especificar mais de um construtor na mesma classe = sobrecarga
 
     Exemplo prático:
+        Por convenção é utilizado no nome do parametro no construtor os mesmo nomes dos atributos ao qual ele se refere.
+        Para referenciar a variavel do atributo dentro do construtor é só usar o "this"
+            this.nome = nome;
