@@ -93,3 +93,5 @@ Membros Estáticos
             O "final" em "public static final double NOME_DA_CONSTANTE = 11
             O nome da constante ser toda em letra maiscula separada por underline
         Uma classe/função estatica eu não preciso instanciar (criar um "objeto") na aplicação
+    Qualquer valor ou dado que será o mesmo resultado independente do objeto ou da opeção é o que aponta para esse dado ser parte de uma classe estática. 
+    
