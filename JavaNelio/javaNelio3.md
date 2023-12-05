@@ -95,3 +95,12 @@ Membros Estáticos
         Uma classe/função estatica eu não preciso instanciar (criar um "objeto") na aplicação
     Qualquer valor ou dado que será o mesmo resultado independente do objeto ou da opeção é o que aponta para esse dado ser parte de uma classe estática. 
     
+## Seção 9 - Construtores, palavra this, sobrecarga, encapsulamento
+Construtores
+    É uma operação da classe que executa na estanciação do objeto (quando cria um objeto na aplicação)
+    Uso comum:
+        Iniciar valores dos atributos
+        Obriga a receber dados para o objeto e injeção de dependencias
+        É possivel especificar mais de um construtor na mesma classe = sobrecarga
+
+    Exemplo prático:
