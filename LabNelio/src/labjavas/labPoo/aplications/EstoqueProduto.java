@@ -1,8 +1,8 @@
-package labJavas.labPoo.aplications;
+package labjavas.labPoo.aplications;
 
 import java.util.Scanner;
 
-import labJavas.labPoo.entities.Produto;
+import labjavas.labPoo.entities.Produto;
 
 public class EstoqueProduto {
     public static void main(String[] args) {

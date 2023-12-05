@@ -1,8 +1,8 @@
-package labJavas.labPoo.aplications;
+package labjavas.labPoo.aplications;
 
 import java.util.Scanner;
 
-import labJavas.labPoo.entities.Empregado;
+import labjavas.labPoo.entities.Empregado;
 
 public class ExEmpregado {
     public static void main(String[] args) {

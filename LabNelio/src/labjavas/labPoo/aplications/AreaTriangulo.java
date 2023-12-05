@@ -1,7 +1,7 @@
-package labJavas.labPoo.aplications;
+package labjavas.labPoo.aplications;
 
 import java.util.Scanner;
-import labJavas.labPoo.entities.Triangulo;
+import labjavas.labPoo.entities.Triangulo;
 
 public class AreaTriangulo {
     public static void main(String[] args) {

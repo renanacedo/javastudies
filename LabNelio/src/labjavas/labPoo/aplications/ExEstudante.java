@@ -1,8 +1,8 @@
-package labJavas.labPoo.aplications;
+package labjavas.labPoo.aplications;
 
 import java.util.Scanner;
 
-import labJavas.labPoo.entities.Estudante;
+import labjavas.labPoo.entities.Estudante;
 
 public class ExEstudante {
     public static void main(String[] args) {

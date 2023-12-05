@@ -1,4 +1,4 @@
-package labJavas.labPoo.entities;
+package labjavas.labPoo.entities;
 
 public class Triangulo {
     public double a;

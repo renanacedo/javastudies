@@ -1,7 +1,7 @@
-package exJavas;
+package exjavas;
 import java.util.Scanner;
 
-public class ExJava1 {
+public class exjava1 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

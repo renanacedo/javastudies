@@ -92,4 +92,4 @@ Membros Estáticos
         O que define uma constante é:
             O "final" em "public static final double NOME_DA_CONSTANTE = 11
             O nome da constante ser toda em letra maiscula separada por underline
-    
+        Uma classe/função estatica eu não preciso instanciar (criar um "objeto") na aplicação

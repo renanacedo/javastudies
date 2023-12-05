@@ -1,8 +1,8 @@
-package labJavas.labPoo.aplications;
+package labjavas.labPoo.aplications;
 
 import java.util.Scanner;
 
-import labJavas.labPoo.entities.Retangulo;
+import labjavas.labPoo.entities.Retangulo;
 
 public class ExRetangulo {
     public static void main(String[] args) {
