@@ -157,3 +157,22 @@ Construtores
         (nada) - membro só pode ser acessado no mesmo pacote
         protected - membro só pode ser acessado no mesmo pacote e subclasses de pacotes diferentes (utiliza com herança)
         public - qualquer classe tem acesso desde que no mesmo módulo
+
+## Sessão 10 - Comportamento de Memória, array, listas
+Classes são tipos refenrência 
+    Memória
+        Stack
+            Quando uma variavel que o tipo é uma classe ele cria espaços nesse ambiente
+        Heap (onde aloca objetos em tempo de execução / alocação dinamica de memória)
+            Quando eu instancio a classe variavel com seus atribuos, criando um objeto ele preenche o Stack e aloca um objeto com os atributos aqui no HEAP 
+
+        O espaço de memória da variavel no STACK guarda um endereço de memóra HEAP onde esta alocado o objeto com os atributos instanciados
+        Por isso uma variável tipo classe é uma referencia, porque ele tem como dado o endereço/referença de onde o objeto esta alocado na memória.
+
+        Ex: Product p1 = new Product("TV", 900.00, 0);
+        p1 é uma variavel do tipo classe (a classe Product no caso):
+            p1 esta no STACK e armazena o endereço de memoria onde esta os atributos ("TV" | 900.00 | 0) no HEAP
+        
+        Se eu indicar p1 como valor de outra variavel, essa nova variavel aponta para onde a p1 aponta, ou seja, ela passa a ter o valor de endereço de memória que a p1 tem.
+        Esse tipo de variavel aceita o valor null; 
+        

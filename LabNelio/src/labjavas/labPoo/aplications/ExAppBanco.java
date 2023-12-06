@@ -14,23 +14,18 @@ public class ExAppBanco {
         sc.nextLine();
         String nome = sc.nextLine();
         System.out.print("Deseja fazer depósito inicial ? (y/n): ");
-        String dpInicial = sc.next();
-        double saldo;
-        switch (dpInicial) {
-            case "n":
-                saldo = 0;
-                break;
-            case "y":
+        char resposta = sc.next().charAt(0);
+        ContaBanco conta1;
+
+        if (resposta == 'y'){
                 System.out.print("Qual valor a ser depositado: ");
-                saldo = sc.nextDouble();
-                break;
-            default:
-                System.out.println("Inválido - Conta criada sem depósito incial");
-                saldo = 0;
-                break;
+                double dpInicial = sc.nextDouble();
+                conta1 = new ContaBanco(digito, nome, dpInicial);
+        } 
+        else { 
+            conta1 = new ContaBanco(digito, nome);
         }
 
-        ContaBanco conta1 = new ContaBanco(digito, nome, saldo);
         System.out.println(conta1);
 
         System.out.print("Digite um valor para depósito: ");

@@ -11,10 +11,10 @@ public class ContaBanco {
     public ContaBanco(){
     }
 
-    public ContaBanco(int digito, String nome, double saldo){
+    public ContaBanco(int digito, String nome, double dpInicial){
         this.digito = digito;
         this.nome = nome;
-        this.saldo = saldo;
+        depositoConta(dpInicial);
     }
 
     public ContaBanco(int digito, String nome){
