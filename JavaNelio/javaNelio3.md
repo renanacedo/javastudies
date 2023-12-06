@@ -107,3 +107,53 @@ Construtores
         Por convenção é utilizado no nome do parametro no construtor os mesmo nomes dos atributos ao qual ele se refere.
         Para referenciar a variavel do atributo dentro do construtor é só usar o "this"
             this.nome = nome;
+    This 
+        É uma referencia para o própio objeto
+        Diferencia atributos de variaveis locais
+            Na memória ele cria um escopo do construtor para obter os dados nas variaveis > passa para os campos do atributos do objeto na memória
+        Passa o próprio objeto como argumento na chamada de um método ou construtor (ele disse que isso só vai aprender mais pra frente)
+            EX:
+            public class ChessMatch {
+                (...)
+                placeNewPiece('e', 1, new King(board, Color.WHITE, this));
+            }
+            > Aqui ele ta criando uma classe que é a partida de xadrez
+            > Nesse jogo ele tem um método que cria uma peça 
+            > Os argumentos tem uma chamada de uma classe que cria uma peça de Rei que tem como argumento referenciar a class ChessMatch
+            > Basicamente é a criação de uma peça pra um jogo que cria especificamente um Rei que tem como argumento afirmar que ele é DESTA partida que ta criando ele
+
+            placeNewPiece tem 3 argumentos
+                - uma letra
+                - um numero
+                - criar uma peça
+                    ela é instanciada (criada "new") que tem 3 argumentos
+                        - uma variavel
+                        - uma cor (membro estatico)
+                        - refenciação da class em que esta sendo criada
+                            basicamente afirma que essa peça criada PERTENCE ao ChessMatch em que ela esta sendo criada
+    
+    Sobrecarga
+        Uma classe pode oferecer mais de uma operação com mesmo nome porem com diferentes parâmetros
+
+        Exemplo na aplicação de produto e estoque
+
+    Encapsulamento
+        Principio para esconder detalhes de implementação de uma classe
+        Expoem apenas operações seguras que mantenham os objetos em estado consistente
+        REGRA = o objeto deve sempre estar em estado consistente e a classe deve garantir isso.
+        Analogia = Um radio permite o usuario apenas botoes de play/pause/pass - Todo o sistema e operação desses botoes é "escondido" do usuario
+
+        Regra basica
+            Um objeto NÃO expoe nenhum atributo = public > private
+            Os atributos devem ser acessados por métodos get e set
+                Eu somente utilizo um get ou set se eu puder alterar/pegar o atributo do objeto
+                ex: a quantidade no estoque de um produto só pode ser alterado pelo método addProduto / removeProduto. Então eu não posso ter um setQuantidade, evitando assim que a quantidade seja alterada por outro meio alem do add ou remove
+    
+    Gerando automaticamente construtores, getters e setters
+        Ele ensina no eclipse, bom pesquisar em outros, mas por enquanto vou utilizar manualmente para fortalecer o conhecimento.
+
+    Modificadores de acesso
+        private - membro só pode ser acessado na própria classe
+        (nada) - membro só pode ser acessado no mesmo pacote
+        protected - membro só pode ser acessado no mesmo pacote e subclasses de pacotes diferentes (utiliza com herança)
+        public - qualquer classe tem acesso desde que no mesmo módulo
