@@ -175,4 +175,33 @@ Classes são tipos refenrência
         
         Se eu indicar p1 como valor de outra variavel, essa nova variavel aponta para onde a p1 aponta, ou seja, ela passa a ter o valor de endereço de memória que a p1 tem.
         Esse tipo de variavel aceita o valor null; 
-        
+    Tipos primitivos = Tipos Valor
+        No caso da variavel que é um tipo primitivo (String, double, int, ...) são caixas na memória STACK
+        Ele não guarda um endereço/referencia mas sim diretamente o valor/dado designado a varivel na aplicação
+        Iniciar variavel 
+            Variaveis precisão ser iniciadas = colocar um valor na variável.
+    Valores Padrão
+        Quando é alocado qualquer tipo estruturado (classe ou array) são atribuidos valores padrão aos elementos.
+            numero = 0
+            boolean = false
+            char = 0
+            objeto = null;
+Desalocação de memória
+    Garbage Collector - automatiza o gerenciamento de memória do app em execução
+    Ele monitora os alocados no heap e desaloca os que não estão mais sendo utiliados
+        Os objetos que não tem referencia (uma variavel tipo classe com seu endereço) serão desalocados 
+Desalocação por escopo
+    Se a váriavel é criada/chamada dentro de um scopo (função, if, swith) ao final do scopo ela é desalocada
+
+    RESUMO: 
+    Objetos alocados dinamicamente, quando não possuem mais referência serão desalocados pelo garbage collector
+    Váriaveis locais são desalocados imediatamente assim que o scopo que esta inserida termina execução.
+
+Vetores 
+    Vetor é um arranjo unidimencional = array
+        Homogenea
+        Ordenada
+        Alocada de uma vez só 
+            Vantagem = Acesso imediato ao elemento em sua posição
+            Desvantagem = Tamanho fixo, dificil inserir e deletar itens
+        Exemplo
