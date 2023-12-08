@@ -12,8 +12,7 @@ public class MaisVelho {
         int n = sc.nextInt();
 
         Pessoas[] lista = new Pessoas[n];
-        String maisVelho = "nome";
-
+        
         for (int i=0; i<lista.length; i++){
             System.out.printf("Digite a %sº pessoa: ", i+1);
             System.out.print("Nome: ");
@@ -22,13 +21,20 @@ public class MaisVelho {
             System.out.print("Idade: ");
             int idade = sc.nextInt();
             lista[i] = new Pessoas(nome, idade);
-            int verific = lista[i].getIdade();
+        }
+
+        int maisVelho = 0;
+        int verific = lista[0].getIdade();
+
+        for (int i=0; i<lista.length; i++){
             if (lista[i].getIdade() > verific){
-                maisVelho = lista[i].getNome();
+                verific = lista[i].getIdade();
+                maisVelho = i;
             }
         }
 
-        System.out.println("Pessoa mais velha: "+ maisVelho);
+        
+        System.out.println("Pessoa mais velha: "+ lista[maisVelho].getNome());
 
         sc.close();
     }
