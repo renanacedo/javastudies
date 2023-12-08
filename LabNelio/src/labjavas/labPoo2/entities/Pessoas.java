@@ -7,14 +7,12 @@ public class Pessoas {
     private double altura;
     private double nota1;
     private double nota2;
-    private double mediaAno;
     private char genero;
 
     public Pessoas(String nome, double nota1, double nota2, double mediaAno){
         this.nome = nome;
         this.nota1 = nota1;
         this.nota2 = nota2;
-        this.mediaAno = mediaAno;
     }
 
     public Pessoas(double altura, char genero){
@@ -78,7 +76,6 @@ public class Pessoas {
     }
 
     public void setMediaAno(double mediaAno){
-        this.mediaAno = mediaAno;
     }
 
     public char getGenero(){
