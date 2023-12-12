@@ -205,3 +205,58 @@ Vetores
             Vantagem = Acesso imediato ao elemento em sua posição
             Desvantagem = Tamanho fixo, dificil inserir e deletar itens
         Exemplo
+        Exercicios
+
+Boxing, unboxing, e wrapper classes
+    Boxing - conversão de objeto tipo valor para objeto tipo referencia compativel
+        int x = 20;
+        Object obj = x;
+            Object = classe generica do java 
+            aloca um objeto contendo do valor de x 
+    Unboxing - Processo inverso
+        int y = (int) obj; 
+            Cria no stack uma variavel com o valor dentro do objeto obj.
+            (int) = casting para indicar que obj é um valor inteiro;
+    Wrapper  classes
+        classes equivalentes aos tipos primitivos
+        Uso comum: boxing e unboxing de maneira natural na linguagem
+            campos de entidades em SI (porque aceitam null e usa OO)
+        Utilizar no lugar de tipos primitivos, principalmente em classes de objetos
+
+Laço "for each"
+    Sintaxe opcional simplificada para percorrer coleções
+        for (Tipo apelido : coleção) {
+            < comando 1 >
+            < comando 2 >
+        }
+
+        EX: percorre todo os elementos da array "vect" chamando eles de obj e printa a cada vetor que passa
+        for (String obj : vect ){
+            print(obj)
+        }
+
+Listas 
+    É uma estrutuda de dados
+        Homogenea = mesmo tipo
+        Ordenada = acessado por posições
+        Inicia vazia e se preenche por demanda
+        Cada elemento ocupa um nó (nodo) da lista
+    Tipo (interface): List - não é uma classe, ele é uma interface
+        Ele disse que interface será explicado mais pra frente no curso
+        Não pode ser instanciado
+        Utiliza classes que implementam a lista: ArrayList, LinkedList
+    Vantagens
+        Tamanho váriavel - Uma array/vetor tem tamanho fixo
+        Facilidade para inserir e deleter elementos 
+    Desvantagens
+        Acesso somente sequencial aos elementos, não posso puxar um elemento fora da ordem.
+        Porem pode se otimizar ela atraves da uma implementação minimizando essa desvantagem
+    Tamanho da lista list();
+    Inserir e remover: add(obj), add(int, obj) -- remove(obj), remove(int), removeIf(Predicate)
+    Econtrar posição: indexOf(obj); - lastIndexOf(obj);
+    Filtrar lista
+        List<Integrer> result= list.stream().filter(x -> x > 4).collect(Collectors.toList());
+    Encontrar primeira ocorrencia
+        Integrer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
+        
+    
