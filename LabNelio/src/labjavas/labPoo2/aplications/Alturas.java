@@ -36,7 +36,7 @@ public class Alturas {
         double maiorPorc = (maiorIdade / chamada.length) * 100;
 
         System.out.printf("%nAltura média: %.2f%n", medAltura);
-        System.out.println("Pessoas maior de 16 anos: " + maiorPorc +"%");
+        System.out.printf("Pessoas maior de 16 anos: %.2f%% ", maiorPorc);
 
         for (int i=0; i<chamada.length; i++){
             if (chamada[i].getIdade() < 16){
